@@ -19,7 +19,7 @@ class Dog
     @@all.collect {|id| id.name}
   end
   
-  def clear_all
+  def self.clear_all
     @@all.clear()
   end
   
