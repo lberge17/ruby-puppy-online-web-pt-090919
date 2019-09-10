@@ -7,7 +7,7 @@ class Dog
     save
   end
   
-  def save
+  def self.save
     @@all << self
   end
   
@@ -18,5 +18,7 @@ class Dog
   def self.print_all
     @@all.collect {|id| id.name}
   end
+  
+  def clear_all
   
 end
