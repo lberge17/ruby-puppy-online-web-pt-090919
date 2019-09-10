@@ -16,7 +16,7 @@ class Dog
   end
   
   def self.print_all
-    @@all.collect {|id| id.name}
+    @@all
   end
   
   def self.clear_all
