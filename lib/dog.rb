@@ -11,4 +11,8 @@ class Dog
     @@all
   end
   
+  def self.print_all
+    @@all.collect {|id| id.name}
+  end
+  
 end
